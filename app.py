@@ -12,6 +12,21 @@ print("2. Listar restaurante")
 print("3.Ativar restaurante")
 print("4.Sair\n")
 
-opcao_escolhida=input("informe a sua opção")
-print(f"Qual a opção que deseja{opcao_escolhida}")
+opcao_escolhida = int(input('Escolha uma opção: '))
+print(f"A opção escolhida é {opcao_escolhida}")
+
+if opcao_escolhida == 1:
+    print('Cadastrar restaurante')
+elif opcao_escolhida == 2:
+    print('Listar restaurantes')
+elif opcao_escolhida == 3:
+    print('Ativar restaurantes')
+else:
+    print('Encerrando o programa')
+
+    
+    
+    
+    
+
 
